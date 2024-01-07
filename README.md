@@ -3,80 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Gaming Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #444;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-            margin: 5px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        nav a:hover {
-            background-color: #555;
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Awesome Gaming Hub</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Gaming Website</h1>
+        <div class="logo">
+            <img src="logo.png" alt="RR">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Games</a>
-        <a href="#">About Us</a>
-        <a href="#">Contact</a>
-    </nav>
-
-    <section>
-        <h2>Featured Games</h2>
-        <p>This is where you can showcase your featured games.</p>
+    <section class="hero">
+        <h1>Welcome to Awesome Gaming Hub</h1>
+        <p>Discover the latest games, read reviews, and stay updated with the gaming world.</p>
     </section>
 
-    <section>
+    <section class="featured-games">
+        <h2>Featured Games</h2>
+        <div class="game-card">
+            <img src="game1.jpg" alt="Game 1">
+            <h3>Game Title 1</h3>
+            <p>Description of the game. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">Learn More</a>
+        </div>
+
+        <div class="game-card">
+            <img src="game2.jpg" alt="Game 2">
+            <h3>Game Title 2</h3>
+            <p>Description of the game. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">Learn More</a>
+        </div>
+
+        <!-- Add more game cards as needed -->
+    </section>
+
+    <section class="latest-news">
         <h2>Latest News</h2>
-        <p>Stay updated with the latest gaming news.</p>
+        <div class="news-article">
+            <img src="news1.jpg" alt="News 1">
+            <h3>Exciting Announcement</h3>
+            <p>Details about the exciting news. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="news-article">
+            <img src="news2.jpg" alt="News 2">
+            <h3>New Game Release</h3>
+            <p>Details about the new game release. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <!-- Add more news articles as needed -->
     </section>
 
     <footer>
-        <p>&copy; 2024 My Gaming Website. All rights reserved.</p>
+        <p>&copy; Redravens. All rights reserved.</p>
     </footer>
 </body>
 </html>
